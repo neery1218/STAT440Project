@@ -1,5 +1,7 @@
 # STAT440Project
 
+Note: This is not (yet) an R package. You'll have to set the working directory on line 6 in project-test.R
+
 ## Makevars instructions
 The stan model wouldn't compile because of compiler _warnings_ thrown by libboost and RcppEigen, which is completely out of my control.
 Therefore, I needed to add the "-w" flag to CXX14FLAGS. This is a hack, I'll look into this later. 
